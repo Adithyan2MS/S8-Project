@@ -1,0 +1,10 @@
+\textbf {Contents}\hspace {3cm}\hspace {8.4cm}\textbf {Page No}\par 
+\contentsline {chapter}{ACKNOWLEDGEMENT}{i}{}%
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{}%
+\contentsline {chapter}{\numberline {2}LITERATURE SURVEY}{2}{}%
+\contentsline {chapter}{\numberline {3}PROPOSITIONAL METHOD }{6}{}%
+\contentsline {section}{\numberline {3.1}Problem Formulation}{6}{}%
+\contentsline {section}{\numberline {3.2}Objectives}{6}{}%
+\contentsline {section}{\numberline {3.3}Schedule of works}{6}{}%
+\contentsline {chapter}{\numberline {4}CONCLUSION}{8}{}%
+\contentsfinish 
