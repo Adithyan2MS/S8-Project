@@ -4,14 +4,63 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[LE,RO]{\textit{\footnotesize \thepage}}
-\fancyhead[RE,LO]{\textit{\footnotesize Phishing Detection Using Machine Learning}}
-%\fancyfoot[LE,LO]{\textit{\footnotesize Department of CSE}}
+\fancyhead[RE,LO]{\textit{\footnotesize WHALING-GUARD : PHISHING DETECTION USING MACHINE LEARNING}}
 \fancyfoot[LE,RO]{\textit{\footnotesize Department of CSE}}
  
 \renewcommand{\headrulewidth}{2pt}
 \renewcommand{\footrulewidth}{1pt}
+\par 
+Phishing detection is a crucial aspect of cybersecurity aimed at identifying and preventing phishing attacks. Phishing refers to a malicious practice where cybercriminals impersonate legitimate entities or organizations to deceive individuals into sharing sensitive information such as passwords, financial details, or personal data. These attackers often use email, text messages, or deceptive websites to trick unsuspecting users.
+\par Phishing attacks can have severe consequences, including identity theft, financial loss, and compromise of sensitive data. To combat this threat, various techniques and technologies have been developed to detect and mitigate phishing attempts.Phishing detection involves the use of sophisticated algorithms, machine learning models, and behavioral analysis to identify patterns and indicators that differentiate legitimate communications from phishing attempts. 36\% of all data breaches involved phishing according to Verizon’s 2022 report. It was estimated that by 2022 a ransomware or phishing attack will occur every 11 seconds.
 
-Phishing  attack  is  a  simplest  way  to  obtain  sensitive information  from innocent  users. Aim  of the  phishers  is to acquire critical information like username, password and bank account details.  Cyber security  persons are now looking for trustworthy  and  steady  detection  techniques  for  phishing websites  detection. This  paper  deals with  machine learning technology for detection of phishing URLs by extracting and analyzing various features of legitimate and phishing URLs. Decision  Tree,  random  forest  and  Support  vector  machine algorithms are used to detect phishing  websites. Aim of the paper is to detect phishing URLs as  well as narrow down to best machine learning algorithm by comparing accuracy rate, false positive and false negative rate of each algorithm.
+\par Website phishing, also known as phishing websites or fake websites, refers to the creation of fraudulent websites that mimic legitimate websites to deceive users into revealing sensitive information or performing malicious actions. These phishing websites are designed to look and feel like the real ones, often imitating the branding, layout, and functionality of trusted organizations, businesses, or online services. The Phishing statistics suggests that compare to malware sites, phishing sites are 75\% higher in presence. It was identified that 61\% of subjects in a study conducted could not differentiate between a real and a fake Amazon login page. So a process/system for identifying and mitigating phishing attacks that occur through fraudulent websites should be implemented Website, which is termed as website phishing detection.
+
+\par In this context, we suggest a phishing detection model
+based on machine learning that can detect whether a website URL
+relates to phishing or not. \textbullet{} We have compared 15 different
+machine learning algorithms for the development of this phishing detection model. \textbullet{} We extracted 74 different features from about 5.5 lakh URLs. And these features where used for training and testing the model. \textbullet{} For comparing the models, we use python-pycaret library and found that Logistic Regression provides better accuracy than any other machine learning algorithms, thus the model is evaluated using Logistic Regression Algorithm. \textbullet{} We have developed a web application that accepts input URLs from the user to predict whether it is phishing or legitimate based on the evaluated model.
+
+\section{Problem Definition}
+\par Phishing has a list of negative effects on a Business, including loss of money, loss of intellectual property, damage to reputation, and disruption of operational activities.  An attack is disguised as a message from a legitimate company. Phishing is facilitated by communicating a sense of urgency in the message, which could threaten account suspension, money loss or loss of the targeted users job. According to the FBI, phishing incidents nearly doubled in frequency, from 114,702  incidents in 2019, to 241,324 incidents in 2020. Therefore, we suggest a phishing detection model based on machine learning that compares the features of the target websites mainly the URLs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

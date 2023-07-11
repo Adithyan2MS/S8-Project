@@ -1,193 +1,216 @@
 \chapter{LITERATURE SURVEY}
 \thispagestyle{empty}
 \\
-\hspace{.2cm} PhishHaven—An Efficient Real-Time AI Phishing URLs Detection System
-[1] 2020 : Design a PhishHaven which detects and classifies a URL using three subcomponents.
+\hspace{.2cm} PhishHaven—An Efficient Real-Time AI Phishing URLs Detection System [1] 2020 : Design a PhishHaven which detects and classifies a URL using three subcomponents.
 First subcomponent, URL Hit 
 The second subcomponent is Features Extractor.
 The third subcomponent is Modelics.In this new paradigm executes ensemble-based machine learning models in parallel using multi-threading technique, and results in real-time detection by significant speed-up in the classification process. 
 
-\hspace{.2cm} Phishing Happens Beyond Technology: The Effects of Human Behaviors and Demographics on Each Step of a Phishing Process
-[2] 2021 : Participants play a risk-taking game and answer questions related to two psychological scales to measure their behaviours, and then conducted a simulated phishing campaign to assess their phishability throughout the three phishing steps selected. Analysed the effect of some personal behaviours and demographic factors in each of the three phishing steps described. 
+\hspace{.2cm}Sufficiency of Ensemble Machine Learning Methods for Phishing Websites Detection [2] 2021 : Phishing instances are usually derived from PhishTank
+Other legitimate instances are from Alexa, DMOZ, and Common Crawl.
+Features used in phishing detection are usually extracted from URLs (protocol, domain, path, parameters) This feature selection framework achieves a remarkable 87.6\% reduction in feature quantity with suffering from only a 0.1\% deterioration in detecting accuracy, making it possible for up-date training and real-time detecting in a production environment.
+
+\hspace{.2cm} Eth-PSD: A Machine Learning-Based Phishing Scam Detection Approach in Ethereum
+[3] 2021 :  Detect phishing scam-related transactions using a novel machine learning-based approach. Eth-PSD tackles some of the limitations in the existing works, such as the use of imbalanced datasets, complex feature engineering, and lower detection accuracy. Proposed Eth-PSD to detect the phishing scam in Ethereum. Started with derived requirements based on the limitations of related works and other effective IDSs from previous related works.
+
 
 \hspace{.2cm} A Systematic Literature Review on Phishing Email Detection Using Natural Language Processing Techniques
 [3] 2022 : The use of Natural Language Processing (NLP) techniques for detection of phishing except one that shed light on the use of NLP techniques for classification and training purposes, while exploring a few alternatives. In this research, journal, conference, and workshop papers were carefully analysed, published between 2006 and 2022, with different techniques to investigate the trend of phishing email detection.
 
-\hspace{.2cm} AI Meta-Learners and Extra-Trees Algorithm for the Detection of Phishing Websites
-[4] 2020 : Data Source and Preparation Algorithm Implementation
-Model Development
-Model Evaluation. This paper implemented and presented four different AI-based meta-learner models using Extra-tree algorithm base learner for detecting phishing websites. 
-
-\hspace{.2cm} Sufficiency of Ensemble Machine Learning Methods for Phishing Websites Detection
-[5] 2021 : Phishing instances are usually derived from PhishTank
-Other legitimate instances are from Alexa, DMOZ, and Common Crawl.
-Features used in phishing detection are usually extracted from URLs (protocol, domain, path, parameters). This feature selection framework achieves a remarkable 87.6\% reduction in feature quantity with suffering from only a 0.1\% deterioration in detecting accuracy, making it possible for up-date training and real-time detecting in a production environment.
-
-\hspace{.2cm} PDGAN: Phishing Detection With Generative Adversarial Networks
-[6] 2022 : The proposed PDGAN model consists of a generator and a discriminator trained in adversarial processes. The generator is an LSTM model which generates synthetic phishing URLs, and the discriminator is a CNN model which decides whether a URL is phishing or legitimate.PDGAN achieved 97.58\% accuracy and 98.02\% precision without depending on third-party services and greater accuracy than other compared models.
-
-\hspace{.2cm} A Comprehensive Survey for Intelligent Spam Email Detection
-[7] 2019 :  Looked into several papers selected based on the listed index terms and thoroughly analyzed the presented method, whether it has effectively used machine learning principles; how robust and impactful the proposed solution really. High adoption of supervised approaches is quite obvious
-SVM and Naïve Bayes are in high demand.
-Single-algorithm anti-spam systems are quite common.
-
-\hspace{.2cm} Eth-PSD: A Machine Learning-Based Phishing Scam Detection Approach in Ethereum
-[8] 2021 :  Detect phishing scam-related transactions using a novel machine learning-based approach. Eth-PSD tackles some of the limitations in the existing works, such as the use of imbalanced datasets, complex feature engineering, and lower detection accuracy. Proposed Eth-PSD to detect the phishing scam in Ethereum. Started with derived requirements based on the limitations of related works and other effective IDSs from previous related works.
-
-\hspace{.2cm} Phishing Website Detection Based on Multidimensional Features Driven by Deep Learning
-[9] 2019 :  Character sequence features of the given URL are extracted and used for quick classification by deep learning,we combine URL statistical features, webpage code features, webpage text features, and the quick classification result of deep learning into multidimensional features. Found that the MFPD approach is effective with high accuracy, low false positive rate and high detection speed.
-
 \hspace{.2cm} OFS-NN: An Effective Phishing Websites Detection Model Based on Optimal Feature Selection and Neural Network
-[10] 2019 :  In the proposed OFS-NN, a new index, feature validity value (FVV), is first introduced to evaluate the impact of sensitive features on the phishing websites detection. Then, based on the new FVV index, an algorithm is designed to select the optimal features from the phishing websites. This algorithm could properly deal with problems of big number of phishing sensitive features and the continuous changes of features. Consequently, it can mitigate the over-fitting problem of the neural network classifier.
+[4] 2019 :  In the proposed OFS-NN, a new index, feature validity value (FVV), is first introduced to evaluate the impact of sensitive features on the phishing websites detection. Then, based on the new FVV index, an algorithm is designed to select the optimal features from the phishing websites. This algorithm could properly deal with problems of big number of phishing sensitive features and the continuous changes of features. Consequently, it can mitigate the over-fitting problem of the neural network classifier.
 
-\hspace{.2cm} Detecting Phishing Web Pages with Visual Similarity Assessment Based on EMD 
-[11] 2006 :  Convert the involved Web pages into low resolution images
-Use EMD to calculate the signature distances of the images
-Train an EMD threshold vector for classifying a Web page as a phishing or a normal.10,281 suspected Web pages are carried out to show high classification precision, phishing recall, and applicable time performance for online enterprise solution. 
-
-\hspace{.2cm} Counteracting Phishing Page Polymorphism:An Image Layout Analysis Approach 
-[12] 2009 :  Analyze the layout of webpages rather than the HTML codes, colors, or content. Speciflcally, compute the similarity degree of a suspect page and an authentic page through image processing techniques.This mechanism is more robust than the HTML-based approachbecause it is more adaptable to phishing page polymorphism. 
-
-\hspace{.2cm} A Computer Vision Technique to Detect Phishing Attacks
-[13] 2015 :  The proposed approach is a combination of white list and visual similarity based techniques. Use computer vision technique called SURF detector to extract discriminative key point features from both suspicious and targeted websites.
- This proposed solution is efficient, covers a wide range of websites phishing attacks and results in less false positive rate.
+\hspace{.2cm} Comparison of Classification Algorithms for Detection of Phishing Websites
+[5] 2020 : Compare classic supervised machine learning algorithms on all publicly available phishing datasets with predefined features and to distinguish the best performing algorithm for solving the problem of phishing websites detection, regardless of a specific dataset design.
  
 
-\hspace{.2cm} Fighting Phishing with Discriminative Keypoint Features
-[14] 2009 :  An effective image-based antiphishing scheme based on discriminative keypoint features in Web pages. Their invariant content descriptor, the Contrast Context Histogram (CCH), computes the similarity degree between suspicious and authentic pages.The results show that the proposed scheme achieves high accuracy and low error rates.
+\hspace{.2cm} Phishing Detection using Random Forest, SVM and Neural Network with Backpropagation
+[6] 2020 : The paper explains the improved Random Forest classification method, SVM classification algorithm and Neural Network with backpropagation classification methods which have been implemented with accuracies of 97.369\%, 97.451\% and 97.259\% respectively.
 
-\hspace{.2cm} Defending against Phishing Attacks: Taxonomy of Methods, Current Issues and Future Directions
-[15] 2018 :  Discuss the history of phishing attacks and the attackers’ motivation in details
-Provide taxonomy of various solutions proposed in literature to protect users from phishing based on the attacks identified in our taxonomy.Conclude paper discussing various issues and challenges that still exist in the literature, which are important to fight against with phishing threats.
 
-\hspace{.2cm} A Layout-Similarity-Based Approach for Detection
-[16] 2007 :  In this paper, an extension of our system (called DOMAntiPhish) that mitigates the shortcomings of previous system. In particular, novel approach leverages layout similarity information to distinguish between malicious and benign web pages.This makes it possible to reduce the involvement of the user and significantly reduces the false alarm rate, experimental evaluation demonstrates that our solution is feasible in practice.
-
-\hspace{.2cm} School of phish: a real-world evaluation of anti-phishing training
-[17] 2009 :  Teaches users to avoid falling for phishing attacks by delivering a training message when the user clicks on the URL in a simulated phishing email.Adding a second training message to reinforce the original training
-Training does not decrease users' willingness to click on links in legitimate messages.
-
-\hspace{.2cm} Phishing for user security awareness
-[18] 2007 :  Taken the concept of using an exercise and modified it in application to evaluate a users propensity to respond to email phishing attacks in an unannounced test.
-This paper describes the considerations in establishing and the process used to create and implement an evaluation of one aspect of our user information assurance education program.
+\hspace{.2cm} Intelligent rule-based phishing websites classification
+[7] 2014 : The authors shed light on the important features that distinguish phishing websites from legitimate ones and assess how good rule-based data mining classification techniques are in predicting phishing websites and which classification technique is proven to be more reliable.The features extracted automatically without any intervention from the users using computerised developed tools.
 
 
 
+\hspace{.2cm} Phishing sites detection based on Url Correlation.
+[8] 2016 : Proposed Vulnerable Sites List and a new feature which is named URL Correlation. URL Correlation is based on the similarity of URLs with the List above that we created. A large improvement of accuracy is observed by comparing methods which use our new feature with the others which use the normal one.
 
 
 
+\hspace{.2cm} Characteristics of Understanding URLs and Domain Names Features: The Detection of Phishing Websites With Machine Learning Methods [9] 2019 :The proposed method simplifies the process of feature extraction, and reduces processing overhead while going beyond analyzing on HTML, DOM, and URL based features by considering URLs, and domain names. A minimum loss in data conversion, selecting the appropriate machine learning technique, and consistency of definitions in the data set.
 
 
 
+\hspace{.2cm} Detecting phishing websites using machine learning technique [10] 2018 : The proposed framework employs RNN—LSTM to identify the properties Pm and Pl in an order to declare an URL as malicious or legitimate. The proposed method (LURL) is developed in Python 3.0 with the support of Sci—Kit Learn and NUMPY packages. Also, the existing URL detectors are constructed for evaluating the performance of LURL. LURL has produced an average of 97.4\% and 96.8\% for Phishtank and Crawler datasets respectively.
 
 
 
+\hspace{.2cm} Web Phishing Detection Using Machine Learning 
+[11] 2022 : Suggest a literacy-based strategy to categorize Web sites into three
+categories: benign, spam, and malicious. Our technology merely
+examines the Uniform Resource Locator (URL) itself, not the
+content of Web pages. As a result, it removes run-time stillness
+and the risk of drug users being exposed to cyber surfer-based
+vulnerabilities. When compared to a blacklisting service, our
+approach performs better on generality and content since it uses
+learning techniques.
 
 
-
-
-
-
-
-
+\hspace{.2cm} Detection of Phishing Websites using Machine Learning [12] 2021 : Collect unstructured data of URLs from Phishtank website, Kaggle website and Alexa website, etc.
+Train the three unique classifiers and analyse their presentation based on exactness two classifiers utilized are Decision Tree and Random Forest algorithm. Each classifier is trained using training set and testing set is used to evaluate performance of classifiers.
+Performance of classifiers has been evaluated by calculating classifiers accuracy score.
 
 
  
 
+\hspace{.2cm} A New Method for Detection of Phishing Websites: URL Detection
+[13] 2018 : Random forest algorithm is implemented using Rstudio. The parsed dataset undergoes heuristic classification where the dataset is spilt into 70\% and 30\%. The 70\% data is considered for training and 30\% for testing. In this paper, a different methodology has been proposed to detect phishing websites by using random forests as the classification algorithm with the help of Rstudio.
 
 
 
+\hspace{.2cm} Detection of URL based Phishing attacks Using Machine Learning [14] 2018 : Hybrid Algorithm Approach is a mixture of different classifiers working together which gives good prediction rate and improves the accuracy of the system. This system provides us with 85.5 \% of accuracy for XG Boost Classifier, 86.3\% accuracy for SVM Classifier, 80.2 \% accuracy for NaÃ¯ve Bayes Classifier and finally 85.6 percentage of accuracy when using Stacking Classifier.
 
 
 
-
-
-
-
-
-
-%\begin{table} 
-%	\centering 
-%	\caption{\textbf{Comparison between Related Works}}
-%	\label{table }
-%	\begin{tabular}{|p{.7cm}|p{3.5cm}|p{2.5cm}|p{1cm}|p{5.7cm}|}
-%		\hline
-%		Sl No  & Name of Paper &	Paper type & Year & Description \\
-%		
-%		\hline
-%		1&
-%		Event management - A special kind of project management
-%		& 
-%		IEEE paper & 
-%		2019 &
-%		Compare project management and event management, to reconsider standards in both areas, and discuss perspectives for a stronger standardization of event management in the future.
-%		
-%		\\
-%		\hline
-%		2 &
-%		Development of a mobile based birth and funeral event planning application in Bahrain
-%		
-%		&
-%		IEEE paper &
-%		2021&
-%		mobile application “Emotive Events”, acting as an event planner that maintains time and budget for a private event including funeral considering multiple religions and birth parties and others
-%		\\
-%		\hline
-%		3&
-%		Factors Affecting Customer Satisfaction with Ecommerce Websites - An Omani Perspective
-%		&
-%		IEEE
-%		&
-%		2019&Study shows that Price and Ease of Use and availability of multiple payment options are the important factors that positively influence customer satisfaction.
-%		\\
-%		\hline
-%		4&
-%		Transforming a website from desktop to mobile a cross platform viewpoint
-%		&	
-%		IEEE
-%		&
-%		
-%		2020& Migrating a desktop website to a mobile site
-%		\\
-%		\hline
-%		5&
-%		Twitter bootstrap and AngularJS: Frontend frameworks to expedite science gateway development
-%		&
-%		IEEE
-%		&
-%		2022&
-%		Empowering developers to create better styled and easily maintainable websites.
-%		\\
-%		\hline	
-%		6 &
-%		Web Development and performance comparison of Web Development Technologies in Node.js and Python &
-%		IEEE
-%		&
-%		2021 &
-%		Performance comparison between two of the most used web backend development technologies, i. e, Node.js and Python. 
-%		\\
-%		\hline
-%		
-%		
+\hspace{.2cm} Large-Scale Automatic Classification of Phishing Pages 
+[15] 2010 : We describe the design and performance characteristics of a scalable machine learning classifier we developed to detect phishing websites. We use this classifier to maintain Googles phishing blacklist automatically. Despite the noise in the training data, our classifier learns a robust model for identifying phishing pages which correctly classifies more than 90\% of phishing pages several weeks after training concludes. 
+{\small
+\begin{table}[H]
+	\centering
+	\caption{\textbf{Comparison between Related Works}}
+	\label{table }
+	\begin{tabular}{|p{.6cm}|p{3.5cm}|p{1.2cm}|p{1cm}|p{5.7cm}|}
+		\hline
+		Sl No  & Name of Paper &	Paper type & Year & Description \\
 		
-%		
-%	\end{tabular}
-%\end{table}
-%\newpage
-%\begin{table}
-%	\centering
-%	\label{table }
-%	\begin{tabular}{|p{.7cm}|p{3.5cm}|p{2.5cm}|p{1cm}|p{5.7cm}|}
-%		
-%		\hline
-%		7 & Express supervision system based on NodeJS and MongoDB
-%		& IEEE & 2019 & The advantages of using NodeJS to construct the back-end Web server, and the performance advantages of storing data based on MongoDB. \\
-%		\hline
-%		8 &Study on Website Search Engine Optimization
-%		&IEEE& 2020 & Improve the website visit quantity, SEO techniques can make a better ranking in the search result.\\
-%		\hline
-%		
-%	\end{tabular}
-%\end{table}
-%\\\\
-%
+		\hline
+		1&
+		PhishHaven—An Efficient Real-Time AI Phishing URLs Detection System
+		& 
+		IEEE paper & 
+		2020 &
+		In this new paradigm executes
+ensemble-based machine learning models in parallel using multi-threading tech-
+nique, and results in real-time detection by significant speed-up in the classification
+process.
+		
+		\\
+		\hline
+		2 &
+		Sufficiency of Ensemble Machine Learning Methods for Phishing Websites Detection
+		
+		&
+		IEEE paper &
+		2021&
+		This feature selection framework achieves a remarkable 87.6\% reduction in feature quantity with suffering from only a 0.1\% deterioration in detecting accuracy.
+		\\
+		\hline
+		3&
+		Eth-PSD: A Machine Learning-Based Phishing Scam Detection Approach in Ethereum
+		&
+		IEEE paper
+		&
+		2021&
+  The project started with derived requirements based on the limitations of related works and other effective IDSs from previous related works.
+
+
+		\\
+		\hline
+		4&
+		OFS-NN: An Effective Phishing Websites Detection Model Based on Optimal Feature Selection and Neural Network
+		&	
+		IEEE paper
+		&
+		
+		2019& In the proposed OFS-NN, a new index, feature validity value (FVV), is first introduced to evaluate the impact of sensitive features on the phishing websites detection
+		\\
+		\hline
+  
+		
+		
+		
+		
+	\end{tabular}
+\end{table}
+\newpage
+\begin{table}
+	\centering
+	\label{table }
+	\begin{tabular}{|p{.6cm}|p{3.5cm}|p{1.2cm}|p{1cm}|p{5.7cm}|}
+		
+		\hline
+  
+		5&
+		Comparison of Classification Algorithms for Detection of Phishing Websites
+		&
+		IEEE paper
+		&
+		2020&
+		The comparison results are presented in this paper, showing ensembles and neural networks outperforming other classical algorithms.
+		\\
+		\hline	
+		6 &
+		Phishing Detection using Random Forest, SVM and Neural Network with Backpropagation &
+		IEEE paper
+		&
+		2020 &
+		This paper explains the existing machine learning methods that are used to detect phishing websites. 
+
+		\\
+		\hline
+		7 & Intelligent rule-based phishing websites classification
+
+		& IET paper & 2014 & The features extracted automatically without any intervention from the users using computerised developed tools.
+ \\
+		\hline
+		8 &Phishing sites detection based on Url Correlation
+		&IEEE paper& 2016 & A large improvement of accuracy is observed by comparing methods which use our new feature with the others which use the normal one.
+\\
+		\hline
+		9 &Characteristics of Understanding URLs and Domain Names Features: The Detection of Phishing Websites With Machine Learning Methods
+		&IEEE paper& 2022 & A minimum loss in data conversion, selecting the appropriate machine learning technique, and consistency of definitions in the data set.
+
+\\
+		\hline
+		10 &Detecting phishing websites using machine learning technique
+  &IEEE paper& 2018 & The existing URL detectors are constructed for evaluating the performance of LURL. LURL has produced an average of 97.4\% and 96.8\% for Phishtank and Crawler datasets respectively.
+\\
+		\hline
+		11 &Web Phishing Detection Using Machine Learning 
+		&IJITEE paper& 2022 & Each classification is performed using a training set, and the performance of the classifiers is evaluated using a testing set. The accuracy score of classifiers was calculated to assess their performance.
+\\
+		\hline
+	\end{tabular}
+\end{table}
+\newpage
+\begin{table}
+	\centering
+	\label{table }
+	\begin{tabular}{|p{.6cm}|p{3.5cm}|p{1.2cm}|p{1cm}|p{5.7cm}|}
+		\hline
+  
+		12 &Detection of Phishing Websites using Machine Learning
+		&IJERT paper& 2021 & Train the three unique classifiers and analyse their presentation based on exactness two classifiers utilized are Decision Tree and Random Forest algorithm.
+\\
+		\hline
+		13 &A New Method for Detection of Phishing Websites: URL Detection
+		&IEEE paper& 2018 & In this paper, a different methodology has been proposed to detect phishing websites by using random forests as the classification algorithm with the help of Rstudio.
+\\
+		\hline
+		14 &Detection of URL based Phishing attacks Using Machine Learning 
+		&IJERT paper& 2018 & This system provides us with 85.5 \% of accuracy for XG Boost Classifier, 86.3\% accuracy for SVM Classifier, 80.2 \% accuracy for NaÃ¯ve Bayes Classifier and finally 85.6 percentage of accuracy when using Stacking Classifier.
+
+\\
+		\hline
+		15 &Large-Scale Automatic Classification of Phishing Pages 
+		&IEEE paper& 2010 & Despite the noise in the training data, our classifier learns a robust model for identifying phishing pages which correctly classifies more than 90\% of phishing pages several weeks after training concludes. 
+
+
+\\
+		\hline
+		
+	\end{tabular}
+\end{table}
+\\\\
+}

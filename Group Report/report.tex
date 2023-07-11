@@ -13,9 +13,11 @@
 \usepackage{float}
 \usepackage{multirow}
 \usepackage{textcomp}
+\usepackage{multicol}
 \usepackage{enumerate}
 \usepackage{caption}
 \usepackage{ragged2e}
+\usepackage[inline]{enumitem}
 \usepackage{subcaption}
 %\usepackage[list=true,listformat=simple]{subcaption}
 \usepackage{appendix}
@@ -76,36 +78,36 @@
 \pagenumbering{roman} %numbering before main content starts
 \input{./acknowldgement.tex}
 \newpage
-%\addcontentsline{toc}{chapter}{ABSTRACT}
-%\input{./abstract.tex}
+\addcontentsline{toc}{chapter}{ABSTRACT}
+\input{./abstract.tex}
 \newpage
 \renewcommand{\cftfigfont}{}
-%\addcontentsline{toc}{chapter}{LIST OF TABLES}
+\addcontentsline{toc}{chapter}{LIST OF TABLES}
 %\addtocontents{lot}{\textbf{\hspace{.5cm}No.}\hspace{3.3cm}\textbf{Title}\hfill\textbf{Page No.}\par}
-%\listoftables
+\listoftables
 \newpage
-%\addcontentsline{toc}{chapter}{LIST OF FIGURES}
+\addcontentsline{toc}{chapter}{LIST OF FIGURES}
 \newpage
 \addtocontents{lot}{\textbf{\hspace{.5cm}No.}\hspace{3cm}\textbf{Title}\hfill\textbf{Page No.}\par}
-%\listoffigures
+\listoffigures
 \cleardoublepage
 \newpage
 \renewcommand{\cftfigfont}{}
 \newpage
-%\addcontentsline{toc}{chapter}{ABBREVIATIONS}
+\addcontentsline{toc}{chapter}{ABBREVIATIONS}
 \newpage
 
-%\input{./abbreviation.tex}
+\input{./abbreviation.tex}
 \cleardoublepage
 \pagenumbering{arabic}
 \input{./introduction.tex}
 %\input{./objective.tex}
 \input{./literature-survey1.tex}
 \input{./proposed-system.tex}
-%\input{./implementation.tex}
-%\input{./resultsanddiscussion.tex}
+\input{./implementation.tex}
+\input{./resultsanddiscussion.tex}
 \input{./conclusionandfuturework.tex}
-%\input{./ref.tex}
+\input{./ref.tex}
 
 
 %\cite{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24}
